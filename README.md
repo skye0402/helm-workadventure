@@ -1,6 +1,7 @@
 # Helm Chart to deploy Workadventure
 
 This is a Helm Chart to deploy [WorkAdventure](https://github.com/thecodingmachine/workadventure)
+Credits go to https://github.com/gmoirod/helm-workadventure - I only adjusted it to work with Kyma
 
 ## Prerequisites
 
