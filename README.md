@@ -16,8 +16,8 @@ Get Helm : https://helm.sh/docs/intro/install/
 ## Install
 
 1. Clone the repo
-2. cd into ./k8s/helm/workadventure
-3. Install workadventure in tag defined in [Chart](./Chart.yaml) :
+2. cd into the cloned folder
+3. Install workadventure in tag defined in [Chart](./Chart.yaml) : (myrelease is just an example, name it as you like it)
 ```
 helm install myrelease .
 ```
