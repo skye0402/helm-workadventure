@@ -48,13 +48,3 @@ It will then be available at https://play.mydomain.com/_/global/maps.mydomain.co
 ## Customise
 
 You can override any values defined [values.yaml](./values.yaml). Read Helm doc to know how.
-
-## TODO
-
-[X] TLS in order to make camera and mic working
-
-[ ] Depend from Jitsi Helm to get full self-hosting
-
-[ ] Simplify templates ?
-
-[ ] CI/CD this Chart

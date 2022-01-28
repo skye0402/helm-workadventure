@@ -37,9 +37,12 @@ spec:
         paths:
         {{- range .paths }}
           - path: {{ . | quote}}
+            pathType: Prefix
             backend:
-              serviceName: {{ $name }}
-              servicePort: {{ $svcPort }}
+              service:
+                name: {{ $name }}
+                port: 
+                    number: {{ $svcPort }}
           {{- end }}
       {{- end }}
 {{- end }}
